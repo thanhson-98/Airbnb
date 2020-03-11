@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nam Từ liêm . Chỗ ở . Airbnb</title>
     <link rel="stylesheet" href="css/overview.css">
-    <link rel="stylesheet" href="css/stype.css">
+    <link rel="stylesheet" href="css/carousel.css">
 </head>
 <body>
     <!-- Navbar -->
@@ -49,24 +49,56 @@
 
     <!-- filter toolbar -->
     <div class="filter">
-        <!-- left -->
-        <div class="filterLeft">
-            <div class="filterLeft-align">
-                <button><span>Ngày</span></button>
-                <button><span>Khách</span></button>
-                <button><span>Công tác</span></button>
-                <button><span>Loại nơi ở</span></button>
-                <button><span>Giá</span></button>
-                <button><span>Đặt ngay</span></button>
-                <button><span>Bộ lọc khác</span></button>
+        <div class="lifeTime-container flex align-item-center">
+            <!-- left -->
+            <div class="filterLeft">
+                <div class="filterLeft-align flex">
+                    <div><button><span>Ngày</span></button></div>                    
+                    <div><button><span>Khách</span></button></div>
+                    <div><button><span>Công tác</span></button></div>
+                    <div><button><span>Loại nơi ở</span></button></div>
+                    <div><button><span>Giá</span></button></div>
+                    <div><button><span>Đặt ngay</span></button></div>
+                    <div><button><span>Bộ lọc khác</span></button></div>
+                </div>
+            </div>
+            <!-- right -->
+            <div class="filterRight">
+                <div class="filterRight-align flex justify-content-end">
+                    <span class="align-item-center flex pr-4">Hiển thị bản đồ</span>
+                    <img src="assets/img/Capture.PNG" alt="Bản đồ vị trí">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- main -->
+    <div class="main flex justify-content-between">
+        <!-- Left -->
+        <div class="mainLeft">
+            <div class="lifeTime-container mainLeft-align">
+                <span>Hơn 300 nơi ở</span>
+                <div class="list-full flex flex-container-col">
+                    <!-- 1 -->
+                    <div class="list-1">
+                        <div class="card">
+                            <span>col-1</span>
+                        </div>
+                    </div>
+                    <!-- 2 -->
+                    <div class="list-1">
+                        <div class="card">
+                            <span>col-2</span>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
-        <!-- right -->
-        <div class="filterRight">
-            <div class="filterRight-align">
-
-            </div>
+        <!-- Right -->
+        <div class="mainRight">
+            <span>Right</span>
+            <div class="mainRight-align"></div>
         </div>
     </div>
 </body>

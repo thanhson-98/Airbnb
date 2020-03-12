@@ -1,0 +1,56 @@
+.block{
+    display: block;
+}
+.flex{
+    display: flex;
+}
+.inherit{
+    display: inherit;
+}
+.right{
+    float: right;
+}
+.left{
+    float: left;
+}
+.mt-0{
+    margin-top: 0px;
+}
+.mb-0{
+    margin-bottom: 0px;
+}
+.mt-2{
+    margin-top: 2px;
+}
+
+.lifeTime-container{
+    padding: 0   24px;
+    height: 100%;
+}
+
+.align-item-center{
+    align-items: center;
+}
+.align-item-end{
+    align-items: flex-end;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+.justify-content-center{
+    justify-content: center;
+}
+.justify-content-end{
+    justify-content: flex-end;
+}
+
+.flex-container-col{
+    flex-direction: column;
+}
+.flex-container-row{
+    flex-direction: row;
+}
+
+.pr-4{
+    padding-right: 4px;
+}

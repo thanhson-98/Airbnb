@@ -186,7 +186,8 @@ button{
 .main{
     width: 100% !important;
     height: 100%;
-    box-sizing: content-box;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    
 
 }
 .mainLeft{
@@ -338,11 +339,83 @@ button{
     transform: scale(1.1);
 }
 
+/* Footer */
+.footer-col{
+    padding: 0 12px;
+    width: 22%;
+    height: auto;
+}
+.footer-col-1{
+    padding-right: 12px;
+    width: 22%;
+    height: auto;
+}
+.footer-col ul, .footer-col-1 ul{
+    padding-left: 0px;
+}
+.footer-align{
+    padding: 48px 0;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+.footer-col-1 ul li, .footer-col ul li{
+    margin: 10px 0; 
+}
+.footer-col-1 ul li a, .footer-col ul li a, .left-developer a{
+    color: #222222; 
+}
+.footer-col-1 ul li a:hover, .footer-col ul li a:hover, .left-developer a:hover{
+    color: #222222;
+    opacity: 0.8;
+    text-decoration: underline;
+}
+.left-developer a{
+    margin-left: 6px;
+}
 
 
-
-
-
+/* Footer-developer */
+.footer-developer{
+    width: 100%;
+    height: auto;
+}
+.fd-align{
+    width: 100%;
+    padding: 24px 0;
+    height: auto;
+}
+.left-developer{
+    width: 50%;
+    height: auto;
+}
+.right-developer{
+    width: 50%;
+    height: auto;
+}
+.right-developer a{
+    color: rgb(34, 34, 34);
+}
+.right-developer a:hover{
+    color: rgb(34, 34, 34);
+    opacity: 0.8;
+}
+.f3{
+    margin-left: 24px;
+}
+.f2{
+    margin-left: 24px;
+}
+.f22{
+    margin-right: 36px;
+}
+.tfd{
+    margin-left: 6px;
+    text-decoration: underline;
+}
+footer a{
+    color: #222222;
+    font-size: 14px;
+    line-height: 18px;
+}
 
 
 

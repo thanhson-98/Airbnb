@@ -35,7 +35,6 @@
 .pl-0{
     padding-left: 0px;
 }
-
 .lifeTime-container{
     padding: 0   24px;
     width: 100%;
@@ -80,4 +79,25 @@
 
 .pr-4{
     padding-right: 4px;
+}
+.break-word{
+    word-wrap: break-word;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.white-space-nowrap{
+    white-space: nowrap;
+}
+.white-space-normal{
+    white-space: normal;
+}
+.white-space-pre{
+    white-space: pre;
+}
+.align-seft-center{
+    align-self: center;
+}
+.align-seft-end{
+    align-self: flex-end;
 }

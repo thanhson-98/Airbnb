@@ -32,6 +32,9 @@
 .ml-4{
     margin-right: 4px;
 }
+.pl-0{
+    padding-left: 0px;
+}
 
 .lifeTime-container{
     padding: 0   24px;
@@ -49,7 +52,9 @@
     width: 100%;
     height: 100%;
 }
-
+.text-center{
+    text-align: center;
+}
 .align-item-center{
     align-items: center;
 }
